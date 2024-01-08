@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 int main()
 {
@@ -9,7 +10,6 @@ int main()
     c = a;
     a = b;
     b = c;
-    std::cout << a;
-    std::cout << b;
+    cout << a << endl << b << endl;
     return 0;
 }
