@@ -1,15 +1,14 @@
 #include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
 {
+    const double PI = 3.1415;
+    double radius;
+    cin >> radius;
 
-    int a = 10;
-    int b = 12;
-    int c;
-    c = a;
-    a = b;
-    b = c;
-    cout << a << endl << b << endl;
+    cout << PI * pow(radius, 2) << '\n';
     return 0;
 }
